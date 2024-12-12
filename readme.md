@@ -62,8 +62,11 @@ Below Command will run all the test cases with markers 'login' and will generate
 
 ```sh
 
-python -m -pytest -m login --html=report.html
+python -m -pytest -m regression --html=report.html
 
 ```
 
-Test case are configured with various markers: login, regression, smoke
+Test case are configured with various markers: regression (in this case I have used only one marker to group all test cases)
+
+## Report
+![Report](https://i.imgur.com/ob55M9I.png)
